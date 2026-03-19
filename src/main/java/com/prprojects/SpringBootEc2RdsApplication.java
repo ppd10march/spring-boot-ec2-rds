@@ -1,4 +1,4 @@
-package com.prprojects.spring_boot_ec2_rds;
+package com.prprojects;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

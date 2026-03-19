@@ -1,13 +1,14 @@
-package com.prprojects.spring_boot_ec2_rds;
+package com.prprojects.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
+@ActiveProfiles("test")
 class SpringBootEc2RdsApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
-
 }
